@@ -32,13 +32,13 @@
 
 [《如何查看我的小程序的 APPID，在哪里看我的小程序的 APPID？》](https://jingyan.baidu.com/article/642c9d340305e3644a46f795.html)
 
-[《设置小程序合法服务器域名》](https://www.yuque.com/apifm/doc/tvpou9)
+[《设置小程序合法服务器域名》](https://www.it120.cc/help/tvpou9.html)
 
-登录 [api工厂](https://admin.it120.cc) ，左侧菜单，微信设置，小程序设置，将上面的AppID和AppSecret填进去
+登录 [api工厂](https://admin.s2m.cc) ，左侧菜单，微信设置，小程序设置，将上面的AppID和AppSecret填进去
 
 ## 把当前小程序测试数据克隆到你自己后台，方便测试
 
-登录 [api工厂](https://admin.it120.cc),左侧菜单 “工厂设置” --> “数据克隆” --> “将别人的数据克隆给我”
+登录 [api工厂](https://admin.s2m.cc),左侧菜单 “工厂设置” --> “数据克隆” --> “将别人的数据克隆给我”
 
 对方商户ID填写 `24340`
 
@@ -46,7 +46,7 @@
 
 ## 配置微信支付
 
-登录 [api工厂](https://admin.it120.cc),左侧菜单，系统设置 -->  在线支付配置，填写您自己的微信支付的信息
+登录 [api工厂](https://admin.s2m.cc),左侧菜单，系统设置 -->  在线支付配置，填写您自己的微信支付的信息
 
 # 其他优秀开源模板推荐
 - [天使童装](https://github.com/EastWorld/wechat-app-mall)   /  [码云镜像](https://gitee.com/javazj/wechat-app-mall)
