@@ -85,7 +85,7 @@ Page({
       title: '...',
     })
     // https://www.yuque.com/apifm/nu0f75/ykr2zr
-    const res = await WXAPI.modifyUserInfo({
+    const res = await WXAPI.modifyUserInfoV2({
       token: wx.getStorageSync('token'),
       nick: this.data.nick,
       gender: this.data.sexIndex,

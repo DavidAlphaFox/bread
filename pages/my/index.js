@@ -99,7 +99,7 @@ Page({
       gender: userInfo.gender,
     }
     // https://www.yuque.com/apifm/nu0f75/ykr2zr
-    const res = await WXAPI.modifyUserInfo(postData)
+    const res = await WXAPI.modifyUserInfoV2(postData)
     if (res.code != 0) {
       wx.showToast({
         title: res.msg,

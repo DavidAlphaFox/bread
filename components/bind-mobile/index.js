@@ -70,6 +70,7 @@ Component({
           iv: e.detail.iv,
         })
       } else {
+        // https://www.yuque.com/apifm/nu0f75/cql7e1
         res = await WXAPI.bindMobileWxappV2(wx.getStorageSync('token'), e.detail.code)
       }
       if (res.code == 0) {
